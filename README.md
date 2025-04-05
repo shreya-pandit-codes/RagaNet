@@ -6,18 +6,16 @@ raganet-carnatic-raga-classifier/
 │
 ├── README.md                ← Project overview
 ├── LICENSE                  ← MIT license
-├── raganet_colab.ipynb      ← Main notebook (clearly named)
-├── requirements.txt         ← Dependencies (optional for now)
+├── rRagaNet.ipynb      ← Main notebook 
 │
-├── model/                   ← Save model architecture or weights (optional)
-│   └── model.h5
+├── model/                   ← Save model architecture 
+│   └── Model Architecture. jpg
 │
 ├── utils/                   ← Your .py preprocessing scripts
-│   ├── preprocessing.py
-│   └── audio_utils.py
+│   ├── audioprocessing.ipynb
+│   └── batchnormalisation.ipynb
 │
-├── audio_samples/           ← Example audio files (optional, small)
-│
-└── docs/                    ← For images, architecture diagrams, etc.
+├── dataset          ← Example audio files 
+│  └── a few train, test data samples
 
 ```
