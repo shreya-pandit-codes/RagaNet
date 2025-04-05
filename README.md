@@ -5,14 +5,14 @@ A CNN based neural network to identify the ragas of uploaded carnatic music melo
 raganet-carnatic-raga-classifier/
 │
 ├── README.md                ← Project overview
-├── LICENSE                  ← MIT license
-├── raganet_colab.ipynb      ← Main notebook (clearly named)
+├── ragaNet.ipynb            ← Main notebook
 │
-├── utils/                   ← Your .py preprocessing scripts
-│   ├── preprocessing.py
-│   └── audio_utils.py
+├── utils/                   ← preprocessing scripts
+│   ├── audioprocessing.ipynb
+│   ├── batchnormalisation.ipynb
+|   └──vodalseperation.ipynb
 │
-├── audio_samples/           ← Example audio files (optional, small)
+├── audio_samples/           ← Example audio files (from train,test dataset)
 │
 └── docs/                    ← For images, architecture diagrams, etc.
 
